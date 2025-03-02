@@ -11,10 +11,10 @@ This project was developed by a team of 4 students as part of our university cou
 ---
 
 ## **Team Members**
-- **Student 1**: Kabil Boufares - Role: Frontend Development (HTML, CSS)
-- **Student 2**: Youssef Jmal - Role: JavaScript Development
-- **Student 3**: Halim Ghali - Role: Design and Responsiveness
-- **Student 4**: Ilyas samaaly - Role: Documentation and Testing
+- **Student 1**: Kabil Boufares 
+- **Student 2**: Youssef Jmal 
+- **Student 3**: Halim Ghali 
+- **Student 4**: Ilyas samaaly 
 
 ---
 

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinique SantéPlus | Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#accueil" class="logo">Santé<span>+</span></a>
+            
+            <!-- Mobile menu button -->
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <!-- Navigation -->
+            <nav class="nav-links" id="navLinks">
+                <a href="#accueil">Accueil</a>
+                <a href="#apropos">À propos</a>
+                <a href="#services">Services</a>
+                <a href="#specialites">Spécialités</a>
+                <a href="#medecins">Médecins</a>
+                <a href="#urgence">Urgences</a>
+                <a href="#contact">Contact</a>
+                <button class="cta-button">Prendre RDV</button>
+            </nav>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-links">
+                <a href="#accueil">Accueil</a>
+                <a href="#apropos">À propos</a>
+                <a href="#services">Services</a>
+                <a href="#specialites">Spécialités</a>
+                <a href="#medecins">Médecins</a>
+                <a href="#urgence">Urgences</a>
+                <a href="#contact">Contact</a>
+                <button class="cta-button">Prendre RDV</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Santé Optimale, <br>Vie Épanouie</h1>
+                    <p>Des soins médicaux d'excellence dans un environnement bienveillant</p>
+                    <button class="cta-button" onclick="location.href='#services'">Découvrir nos services</button>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Équipe médicale">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Bâtiment de la clinique">
+                </div>
+                <div class="about-text">
+                    <h2>Notre Clinique</h2>
+                    <p>Fondée en 2005, la Clinique SantéPlus s'est imposée comme un leader dans les soins médicaux innovants. Notre mission est de fournir des soins de santé exceptionnels dans un environnement accueillant et rassurant.</p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-check-circle"></i> 50+ spécialités médicales</li>
+                        <li><i class="fas fa-check-circle"></i> Plateaux techniques ultramodernes</li>
+                        <li><i class="fas fa-check-circle"></i> Accréditations internationales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Services</h2>
+                <p>Nous offrons une gamme complète de services médicaux pour répondre à tous vos besoins de santé</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Cardiologie</h3>
+                    <p>Des soins cardiaques de pointe avec les dernières technologies et des spécialistes reconnus.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bone"></i>
+                    </div>
+                    <h3>Orthopédie</h3>
+                    <p>Nos spécialistes en traumatologie et chirurgie orthopédique vous accompagnent vers une meilleure mobilité.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>Pédiatrie</h3>
+                    <p>Des soins adaptés aux enfants dans un environnement rassurant et avec une équipe bienveillante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialties Section -->
+    <section id="specialites" class="specialties">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Spécialités</h2>
+                <p>Découvrez l'étendue de nos spécialités médicales pour une prise en charge complète</p>
+            </div>
+            
+            <div class="specialties-grid">
+                <div class="specialty-card">
+                    <div class="specialty-header">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>Cardiologie</h3>
+                    </div>
+                    <div class="specialty-body">
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> Échocardiographie</li>
+                            <li><i class="fas fa-chevron-right"></i> Rythmologie</li>
+                            <li><i class="fas fa-chevron-right"></i> Chirurgie cardiaque</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="specialty-card">
+                    <div class="specialty-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>Neurologie</h3>
+                    </div>
+                    <div class="specialty-body">
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> Épileptologie</li>
+                            <li><i class="fas fa-chevron-right"></i> Neurochirurgie</li>
+                            <li><i class="fas fa-chevron-right"></i> Électroencéphalogramme</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="specialty-card">
+                    <div class="specialty-header">
+                        <i class="fas fa-baby"></i>
+                        <h3>Pédiatrie</h3>
+                    </div>
+                    <div class="specialty-body">
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> Néonatologie</li>
+                            <li><i class="fas fa-chevron-right"></i> Pédiatrie générale</li>
+                            <li><i class="fas fa-chevron-right"></i> Chirurgie pédiatrique</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="medecins" class="doctors">
+        <div class="container">
+            <div class="section-header">
+                <h2>Notre Équipe Médicale</h2>
+                <p>Des professionnels de santé expérimentés et dévoués à votre bien-être</p>
+            </div>
+            
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80" alt="Dr. Jean Dupont">
+                    <h3>Dr. Jean Dupont</h3>
+                    <p class="doctor-specialty">Chirurgien Cardiaque</p>
+                    <p class="doctor-experience">20 ans d'expérience</p>
+                </div>
+                
+                <div class="doctor-card">
+                    <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80" alt="Dr. Marie Laurent">
+                    <h3>Dr. Marie Laurent</h3>
+                    <p class="doctor-specialty">Neurologue</p>
+                    <p class="doctor-experience">15 ans d'expérience</p>
+                </div>
+                
+                <div class="doctor-card">
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&h=300&q=80" alt="Dr. Thomas Moreau">
+                    <h3>Dr. Thomas Moreau</h3>
+                    <p class="doctor-specialty">Pédiatre</p>
+                    <p class="doctor-experience">18 ans d'expérience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Section -->
+    <section id="urgence" class="emergency">
+        <div class="container">
+            <h2>Urgences Médicales 24/7</h2>
+            <p>Notre service d'urgence est disponible 24h/24 et 7j/7 avec une équipe médicale qualifiée prête à intervenir</p>
+            
+            <div class="emergency-box">
+                <i class="fas fa-phone-alt"></i>
+                <p class="emergency-number">01 23 45 67 89</p>
+                <p>Numéro d'urgence</p>
+            </div>
+            
+            <a href="tel:+33123456789" class="emergency-button">
+                <i class="fas fa-phone-alt"></i> Appel d'urgence immédiat
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contactez-nous</h2>
+                <p>Notre équipe est à votre écoute pour répondre à toutes vos questions</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form-container">
+                    <div class="contact-form-box">
+                        <h3>Envoyez-nous un message</h3>
+                        
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nom complet</label>
+                                <input type="text" id="name" placeholder="Votre nom" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Votre email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Téléphone</label>
+                                <input type="tel" id="phone" placeholder="Votre numéro">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-button">Envoyer le message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="contact-info-container">
+                    <div class="contact-info-box">
+                        <h3>Informations de contact</h3>
+                        
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Adresse</h4>
+                                <p>123 Rue de la Santé<br>75015 Paris, France</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>01 23 45 67 89</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contact@santeplus.fr</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horaires</h4>
+                                <p>Lun-Ven: 8h-20h<br>Sam: 8h-18h<br>Dim: Fermé</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615509614!3d48.85837007928746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1623335676051!5m2!1sfr!2sfr" 
+                                                        width="100%" 
+                                                        height="100%" 
+                                                        style="border:0;" 
+                                                        allowfullscreen="" 
+                                                        loading="lazy"
+                                                        title="Google Maps"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Santé<span>+</span></h3>
+                    <p>Des soins médicaux d'excellence dans un environnement bienveillant depuis 2005.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#specialites">Spécialités</a></li>
+                        <li><a href="#medecins">Médecins</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#urgence">Urgences</a></li>
+                        <li><a href="#">Consultations</a></li>
+                        <li><a href="#">Chirurgie</a></li>
+                        <li><a href="#">Laboratoire</a></li>
+                        <li><a href="#">Imagerie</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Rue de la Santé<br>75015 Paris, France</p>
+                        <p><i class="fas fa-phone-alt"></i> 01 23 45 67 89</p>
+                        <p><i class="fas fa-envelope"></i> contact@santeplus.fr</p>
+                    </address>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Clinique SantéPlus. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

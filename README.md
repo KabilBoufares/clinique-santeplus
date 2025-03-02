@@ -37,15 +37,13 @@ This project was developed by a team of 4 students as part of our university cou
   - Visual Studio Code
   - Git and GitHub for version control
   - Font Awesome for icons
-- **Hosting**:
-  - GitHub Pages (for demonstration)
 
 ---
 
 ## **How to Use This Project**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/clinique-santeplus.git
+   git clone https://github.com/KabilBoufares/clinique-santeplus.git
    ```
 2. Open the project in VS Code or your preferred editor.
 3. Open `index.html` in your browser to view the website.

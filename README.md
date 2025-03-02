@@ -52,23 +52,6 @@ This project was developed by a team of 4 students as part of our university cou
 
 ---
 
-## **Project Structure**
-```
-clinique-santeplus/
-├── index.html            # Home page
-├── styles/               # CSS styles folder
-│   └── main.css
-├── assets/               # Resources folder (images, icons)
-│   ├── images/
-│   └── icons/
-├── scripts/              # JavaScript scripts folder
-│   └── main.js
-├── README.md             # Project documentation
-└── .gitignore            # Files ignored by Git
-```
-
----
-
 
 ## **Learning Outcomes**
 Through this project, we gained practical experience in:
